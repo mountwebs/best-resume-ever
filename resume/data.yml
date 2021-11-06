@@ -3,7 +3,7 @@ name:
   first: Stian
   middle:
   last: Klasbu
-about: Full stack developer based in Oslo with a passion for technology. A very curious person who loves to learn about, create and improve technical solutions. Previously studied technology as a social science student, but have changed to a more hands on approach to follow my dream to become a developer.
+about: Full stack developer based in Oslo with a passion for technology. A curious person who loves to learn about, create and improve technical solutions. Previously studied technology as a social science student, but have changed to a more hands on approach to follow my dream to become a developer.
 position: Full Stack Software Developer
 
 birth:
@@ -25,6 +25,11 @@ education:
   description: "Specialization in Sociology. Wrote my bachelor thesis on technological discourses."
 
 experience:
+- company: Eye-share AS
+  position: Technical consultant
+  timeperiod: March 2021 - Present
+  description: Working
+
 - company: University of Oslo
   position: Seminar teacher
   timeperiod: August 2017 - June 2018, January 2020 - April 2020
@@ -61,10 +66,12 @@ skills:
 
 languages:
   - name: JavaScript
+  - name: C#
   - name: Python
 
 frontEnd:
 - name: React
+- name: AngularJS
 - name: Gatsby
 - name: Redux
 - name: HTML5
@@ -73,22 +80,24 @@ frontEnd:
 - name: Sass
 
 backEnd:
-- name: REST API
 - name: Node
+- name: .net
+- name: REST API
 - name: Express
 - name: MongoDB
 - name: PostgreSQL
 - name: InfluxDB
 - name: GraphQL
-- name: Bootstrap
 
 otherSkills:
 - name: Linux
 - name: Git
+- name: Azure DevOps
 - name: Docker
 - name: Bash
 - name: Postman
 - name: Amazon AWS
+
 
 
 
