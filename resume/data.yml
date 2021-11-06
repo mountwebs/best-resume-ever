@@ -1,98 +1,124 @@
 /* #*/ export const PERSON = `
-# Any fields left unchanged, please delete so your resume is fully yours!
-
 name:
-  first: John
+  first: Stian
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Klasbu
+about: Full stack developer based in Oslo with a passion for technology. A very curious person who loves to learn about, create and improve technical solutions. Previously studied technology as a social science student, but have changed to a more hands on approach to follow my dream to become a developer.
+position: Full Stack Software Developer
 
 birth:
-  year: 1990
-  location: New York
-
-# you may add more experiences by duplicating the template
-
-experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
-
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+  year: 1988
+  location: Oslo
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Full Stack JavaScript - School of Applied Technology </salt>
+  timeperiod: September 2020 - December 2020
+  description: Intensive three month training program for full stack web development with a focus on TDD, mob programming, and applied learning. 30 students selected from 1500 applicants.
+  website: https://salt.dev/
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Master in Technology, Innovation and Knowledge – University of Oslo
+  timeperiod: August 2017 - June 2020
+  description: "Masters programme at Center for Technology, Innovation and Culture. Thesis topic: privacy, law and technology; following GDPR from political vision to digital infrastructure, and how developers translated it into IT-practice."
 
-# skill level goes from 0 to 100
+- degree: Bachelor in Culture and Communication - University of Oslo
+  timeperiod: August 2015 - June 2017
+  description: "Specialization in Sociology. Wrote my bachelor thesis on technological discourses."
+
+experience:
+- company: University of Oslo
+  position: Seminar teacher
+  timeperiod: August 2017 - June 2018, January 2020 - April 2020
+  description: Taught two modules and supervised 23 students through their bachelor thesis in Culture and Communication.
+
+- company: Centre for Technology, Innovation and Culture, University of Oslo
+  position: Research Assistant and Project Coordinator Assistant,
+  timeperiod: 2018-2019
+  description: I worked on a a research project (Enacting the good economy), and assisted researchers with scientific publications and coordination of the project.
+
+- company: Student Program Council, Centre for Technology, Innovation and Culture, University of Oslo
+  position: Council Leader
+  timeperiod: 2018-2019
+  description: Created the council and lead the council the first two semesteres. (Voluntary work)
+
+- company: Molo – Student journal, Intellectual history 
+  position: Editor-in-Chef
+  timeperiod: 2014-2015
+  description: Editor-in-Chef for the first edition of the journal. (Voluntary work)
+
+
+
+
+# skill level goes 0 to 100
 skills:
 - name: HTML5
-  level: 99
 - name: CSS3
-  level: 95
 - name: JavaScript
-  level: 97
 - name: Node.js
-  level: 93
 - name: Angular 2
-  level: 60
 - name: TypeScript
-  level: 80
 - name: ES.Next
-  level: 70
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+
+languages:
+  - name: JavaScript
+  - name: Python
+
+frontEnd:
+- name: React
+- name: Gatsby
+- name: Redux
+- name: HTML5
+- name: CSS3
+- name: Webpack
+- name: Sass
+
+backEnd:
+- name: REST API
+- name: Node
+- name: Express
+- name: MongoDB
+- name: PostgreSQL
+- name: InfluxDB
+- name: GraphQL
+- name: Bootstrap
+
+otherSkills:
+- name: Linux
+- name: Git
+- name: Docker
+- name: Bash
+- name: Postman
+- name: Amazon AWS
+
+
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Portfolio and blog
+  timeperiod: January 2021
+  description: Webpage created with Gatsby (with React and graphQL). 
+  url: https://stiangk.netlify.app/
+- name: PhysIO
+  timeperiod: December 2020
+  description: Prototype app for physiotherapists and their clients. Created with React frontend and REST API Backend with Express and MongoDB. The app provides the physotherapist with an easier way to share exercises and sessions with their clients. Created with my mob at Salt at a 2-week sprint.
+  url: https://phys-io.netlify.app/
+- name: Blomstre
+  timeperiod: November 2020
+  description: A prototype for a personal planttracker, showing you if your plants are happy or not. Initialy made on a one day sprint with REST API, express and React. Later upgraded with Redux and MongoDB.
+  url: https://github.com/mountwebs/blomstre-planttracker
+- name: Timeglass
+  platform: Python
+  timeperiod: May 2020
+  description: A simple, unobtrusive menu bar timer for macOS.
+  url: https://github.com/mountwebs/timeglass
 
-# optional, not all resume templates have hobbies included
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+knowledge: Take a look at my website for more on my projects.
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: stiangk@email.com
+  phone: +47 91806599
+  city: Oslo
+  website: https://stiangk.netlify.app/
+  github: mountwebs
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
