@@ -1,9 +1,8 @@
 /* #*/ export const PERSON = `
 name:
   first: Stian
-  middle:
   last: Klasbu
-about: Full stack developer based in Oslo with a passion for technology. A curious person who loves to learn about, create and improve technical solutions. Previously studied technology as a social science student, but have changed to a more hands on approach to follow my dream to become a developer.
+about: Full stack developer based in Oslo with a passion for creating things. A curious person who loves to learn, create and improve technology. Previously studied technology as a social science student, but have changed to a more hands on approach to follow my dream to become a developer.
 position: Full Stack Software Developer
 
 birth:
@@ -13,7 +12,7 @@ birth:
 education:
 - degree: Full Stack JavaScript - School of Applied Technology </salt>
   timeperiod: September 2020 - December 2020
-  description: Intensive three month training program for full stack web development with a focus on TDD, mob programming, and applied learning. 30 students selected from 1500 applicants.
+  description: Accelerated career program for full stack web development with a focus on TDD, mob programming, and applied learning. 30 students selected from 1500 applicants.
   website: https://salt.dev/
 
 - degree: Master in Technology, Innovation and Knowledge – University of Oslo
@@ -22,13 +21,13 @@ education:
 
 - degree: Bachelor in Culture and Communication - University of Oslo
   timeperiod: August 2015 - June 2017
-  description: "Specialization in Sociology. Wrote my bachelor thesis on technological discourses."
+  description: "Specialization in Sociology. Wrote my bachelor thesis on technological discourses. Exchange semester Goldsmiths, London, 2016"
 
 experience:
 - company: Eye-share AS
   position: Technical consultant
   timeperiod: March 2021 - Present
-  description: Working
+  description: Working as a consultant for a Norwegian software company creating software solutions for automated digital processing of invoices and other incoming financial documents.
 
 - company: University of Oslo
   position: Seminar teacher
@@ -40,17 +39,28 @@ experience:
   timeperiod: 2018-2019
   description: I worked on a a research project (Enacting the good economy), and assisted researchers with scientific publications and coordination of the project.
 
-- company: Student Program Council, Centre for Technology, Innovation and Culture, University of Oslo
+- company: The Norwegian Center for Holocaust and Minority Studies
+  position: Museum guide and receptionist
+  timeperiod: 2017 - 2020
+
+- company: Norsk filminstitutt and Cinemateket in Oslo
+  position: Cinenema host, Receptionist and museum guide
+  timeperiod: 2014-2016
+
+voluntary:
+- name: Student Program Council, Centre for Technology, Innovation and Culture, University of Oslo
   position: Council Leader
   timeperiod: 2018-2019
-  description: Created the council and lead the council the first two semesteres. (Voluntary work)
+  description: Created the council and lead the council the first two semesteres.
 
-- company: Molo – Student journal, Intellectual history 
+- name: 'Film- and lecture series: ”Aisthesis – Film and Philosophy”'
+  position: Founder and main and main organizer
+  description: Arranged with Cinemateket in Oslo and the student journal Filosofisk supplement, arranged 2 to 4 times each year with academic lecturers.
+
+- name: Molo – Student journal, Intellectual history 
   position: Editor-in-Chef
   timeperiod: 2014-2015
-  description: Editor-in-Chef for the first edition of the journal. (Voluntary work)
-
-
+  description: Editor-in-Chef for the first edition of the journal.
 
 
 # skill level goes 0 to 100
@@ -71,9 +81,9 @@ languages:
 
 frontEnd:
 - name: React
-- name: AngularJS
 - name: Gatsby
 - name: Redux
+- name: AngularJS
 - name: HTML5
 - name: CSS3
 - name: Webpack
@@ -82,12 +92,14 @@ frontEnd:
 backEnd:
 - name: Node
 - name: .net
-- name: REST API
-- name: Express
 - name: MongoDB
 - name: PostgreSQL
+- name: REST API
+- name: Express
+- name: Redis
 - name: InfluxDB
 - name: GraphQL
+
 
 otherSkills:
 - name: Linux
@@ -99,9 +111,11 @@ otherSkills:
 - name: Amazon AWS
 
 
-
-
 projects:
+- name: Iver
+  timeperiod: April 2021 - November 2021
+  url: https://github.com/mountwebs/folkestemmen-frontend
+  description: Worked in a team of two designers (Travers AS) and two developers to create a web app enabeling citizens to give direct feedback to their local government.
 - name: Portfolio and blog
   timeperiod: January 2021
   description: Webpage created with Gatsby (with React and graphQL). 
@@ -110,10 +124,6 @@ projects:
   timeperiod: December 2020
   description: Prototype app for physiotherapists and their clients. Created with React frontend and REST API Backend with Express and MongoDB. The app provides the physotherapist with an easier way to share exercises and sessions with their clients. Created with my mob at Salt at a 2-week sprint.
   url: https://phys-io.netlify.app/
-- name: Blomstre
-  timeperiod: November 2020
-  description: A prototype for a personal planttracker, showing you if your plants are happy or not. Initialy made on a one day sprint with REST API, express and React. Later upgraded with Redux and MongoDB.
-  url: https://github.com/mountwebs/blomstre-planttracker
 - name: Timeglass
   platform: Python
   timeperiod: May 2020
@@ -127,7 +137,7 @@ contact:
   phone: +47 91806599
   city: Oslo
   website: https://stiangk.netlify.app/
-  github: mountwebs
+  github: mountwebs @ github
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

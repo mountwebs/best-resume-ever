@@ -122,7 +122,7 @@
           </a>
         </div>
 
-                <span class="section-content__header">Front-end</span>
+        <span class="section-content__header">Front-end</span>
 
         <div class="section-content-grid">
           <a v-for="(skill, index) in person.frontEnd" :key="index"
@@ -166,7 +166,35 @@
 
 
       </div>
-<div class="education-section section">
+
+ <div class="experience-section section">
+        <div class="icon">
+          <i class="material-icons small-icon">work</i>
+          <span class="section-headline">Experience</span>
+        </div>
+
+        <div class="section-content">
+          <a v-for="(experience, index) in person.experience" :key="index"
+            class="section-content__item"
+            :href="experience.website">
+
+            <span class="section-content__header"> {{ experience.position }}</span>
+            <span class="section-content__subheader"> {{ experience.company }}</span>
+            <div class="section-content__text"> {{ experience.timeperiod }}</div>
+            <span class="section-content__text--light"> {{ experience.description }}</span>
+            <span v-if="experience.company === 'Eye-share AS'"
+        class="section-content__text--light">
+          <li>Working with customers to tailor software to their spesific needs.</li>
+          <li>Experience with a highly customisable web app built on C# and with AngularJS frontend.</li>
+          <li>Worked with countinuous integration and deployment tools and practices: Git,  Azure pipelines, Octopus Deploy etc. </li>
+          <li>Experience with databases: mongoDB and postgreSQL</li>
+          <li>Contributed to establishing the Oslo branch as one of the first employees in Oslo. Supported three new technical employees in getting started in the company (fadder).</li>
+        </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="education-section section">
         <div class="icon">
           <i class="material-icons">school</i>
           <span class="section-headline">{{ lang.education }}</span>
@@ -185,7 +213,28 @@
         </div>
       </div>
 
-            <div v-if="person.projects"
+      <div v-if="person.voluntary"
+        class="voluntary-section section">
+        <div class="icon">
+          <i class="fa fa-heart font-awesome-icons"></i>
+          <span class="section-headline"> {{ lang.voluntary }} </span>
+        </div>
+
+        <div class="section-content">
+          <a v-for="(voluntary, index) in person.voluntary" :key="index"
+            class="section-content__item"
+            :href="voluntary.url">
+
+            <span class="section-content__header"> {{ voluntary.name }} </span>
+            <span class="section-content__subheader">{{ voluntary.company }}</span>
+            <div class="section-content__text"> {{ voluntary.timeperiod }}</div>
+            <span class="section-content__text--light"> {{ voluntary.description }} </span>
+            <span class="section-content__text--light"> {{ voluntary.url }} </span>
+          </a>
+        </div>
+      </div>
+
+      <div v-if="person.projects"
         class="projects-section section">
         <div class="icon">
           <i class="material-icons">code</i>
@@ -197,9 +246,6 @@
             class="section-content__item"
             :href="project.url">
 
-                        <div v-if="project.name === 'Timeglass'"
-        class="projects-section section"><br/></div>
-
             <span class="section-content__header"> {{ project.name }} </span>
             <span class="section-content__subheader">{{ project.platform }}</span>
             <span class="section-content__text"> {{ project.description }} </span>
@@ -207,28 +253,6 @@
           </a>
         </div>
       </div>
-
-      <div class="experience-section section">
-        <div class="icon">
-          <i class="material-icons small-icon">work</i>
-          <span class="section-headline">Experience</span>
-        </div>
-
-        <div class="section-content">
-          <a v-for="(experience, index) in person.experience" :key="index"
-            class="section-content__item"
-            :href="experience.website">
-
-            <span class="section-content__header"> {{ experience.position }}</span>
-            <span class="section-content__subheader"> {{ experience.company }}</span>
-            <div class="section-content__text"> {{ experience.timeperiod }}</div>
-            <span class="section-content__text--light"> {{ experience.description }}</span>
-          </a>
-        </div>
-      </div>
-
-
-
 
 
       <div v-if="person.contributions"
