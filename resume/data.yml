@@ -23,11 +23,14 @@ education:
   timeperiod: August 2015 - June 2017
   description: "Specialization in Sociology. Wrote my bachelor thesis on technological discourses. Exchange semester Goldsmiths, London, 2016"
 
+- degree: Bachelor in Philosophy - University of Oslo
+  timeperiod: August 2009 - June 2012
+
 experience:
 - company: Eye-share AS
   position: Technical consultant
   timeperiod: March 2021 - Present
-  description: Working as a consultant for a Norwegian software company creating software solutions for automated digital processing of invoices and other incoming financial documents.
+  description: Technical Consultant for a Norwegian software company developing intelligent software for intelligent purchase-to-pay solutions for customers in over 45 countries. 
 
 - company: University of Oslo
   position: Seminar teacher
