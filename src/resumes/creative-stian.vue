@@ -82,6 +82,74 @@
         </a>
       </div>
 
+      <div v-if="person.skills"
+        class="skills-section section">
+        <div class="icon">
+          <i class="material-icons white">done_all</i>
+          <span class="section-headline white"> {{ lang.skills }} </span>
+        </div>
+
+        <span class="section-content__header">Languages</span>
+
+        <div class="section-content-grid no-padding">
+          <a v-for="(skill, index) in person.languages" :key="index"
+            class="grid-item"
+            :href="skill.url">
+
+            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
+
+            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
+          </a>
+        </div>
+
+        <span class="section-content__header">Front-end</span>
+
+        <div class="section-content-grid no-padding">
+          <a v-for="(skill, index) in person.frontEnd" :key="index"
+            class="grid-item"
+            :href="skill.url">
+
+            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
+
+            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
+          </a>
+        </div>
+</br>
+</br>
+</br>
+</br>
+                        <span class="section-content__header">Back-end</span>
+
+        <div class="section-content-grid no-padding">
+          <a v-for="(skill, index) in person.backEnd" :key="index"
+            class="grid-item"
+            :href="skill.url">
+
+            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
+
+            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
+          </a>
+        </div>
+
+
+                               <span class="section-content__header">General</span>
+
+        <div class="section-content-grid no-padding">
+          <a v-for="(skill, index) in person.otherSkills" :key="index"
+            class="grid-item"
+            :href="skill.url">
+
+            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
+
+            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
+          </a>
+        </div>
+
+
+
+
+      </div>
+
       <div class="hobbies-container">
         <!-- <span class="subheadline">Hobbies</span> -->
         <div class="hobbies-content">
@@ -102,70 +170,7 @@
 
     <div class="right-column">
 
-            <div v-if="person.skills"
-        class="skills-section section">
-        <div class="icon">
-          <i class="material-icons">done_all</i>
-          <span class="section-headline"> {{ lang.skills }} </span>
-        </div>
-
-        <span class="section-content__header">Languages</span>
-
-        <div class="section-content-grid">
-          <a v-for="(skill, index) in person.languages" :key="index"
-            class="grid-item"
-            :href="skill.url">
-
-            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
-
-            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
-          </a>
-        </div>
-
-        <span class="section-content__header">Front-end</span>
-
-        <div class="section-content-grid">
-          <a v-for="(skill, index) in person.frontEnd" :key="index"
-            class="grid-item"
-            :href="skill.url">
-
-            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
-
-            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
-          </a>
-        </div>
-
-                        <span class="section-content__header">Back-end</span>
-
-        <div class="section-content-grid">
-          <a v-for="(skill, index) in person.backEnd" :key="index"
-            class="grid-item"
-            :href="skill.url">
-
-            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
-
-            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
-          </a>
-        </div>
-
-
-                               <span class="section-content__header">General</span>
-
-        <div class="section-content-grid">
-          <a v-for="(skill, index) in person.otherSkills" :key="index"
-            class="grid-item"
-            :href="skill.url">
-
-            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
-
-            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
-          </a>
-        </div>
-
-
-
-
-      </div>
+            
 
  <div class="experience-section section">
         <div class="icon">
@@ -185,10 +190,11 @@
             <span v-if="experience.company === 'Eye-share AS'"
         class="section-content__text--light">
           <li>Working with customers to tailor software to their spesific needs.</li>
-          <li>Experience with a highly customisable web app built on C# and with AngularJS frontend.</li>
-          <li>Worked with countinuous integration and deployment tools and practices: Git,  Azure pipelines, Octopus Deploy etc. </li>
-          <li>Experience with databases: mongoDB and postgreSQL</li>
-          <li>Contributed to establishing the Oslo branch as one of the first employees in Oslo. Supported three new technical employees in getting started in the company (fadder).</li>
+          <li>Experience with a complex and highly customisable web app built on C# and with AngularJS frontend.</li>
+          <li>Working on integrating our software with customers ERPs and other software, like SAP, D365, AX09, AX12, Visma etc.</li>
+          <li>Worked with deployment and countinuous integration tools and practices: Git,  Azure pipelines, Octopus Deploy etc. </li>
+          <li>Working with databases on a daily basis: mongoDB and postgreSQL</li>
+          <li>Contributed to establishing the Oslo branch. Onboarded three new technical employees (fadder).</li>
         </span>
           </a>
         </div>
@@ -483,7 +489,7 @@ a {
 .squarred-grid-item {
   display: block;
 
-  border: 1px solid @accent-color;
+  border: 1px solid white;
 
   background-color: @accent-color;
   color: white;
@@ -594,6 +600,14 @@ a {
 #myselfpic {
   background-image:url('../../resume/id.jpg');
   color:black;
+}
+
+.white {
+  color: white
+}
+
+.no-padding {
+  padding: 0px;
 }
 
 </style>

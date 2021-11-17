@@ -12,7 +12,7 @@ birth:
 education:
 - degree: Full Stack JavaScript - School of Applied Technology </salt>
   timeperiod: September 2020 - December 2020
-  description: Accelerated career program for full stack web development with a focus on TDD, mob programming, and applied learning. 30 students selected from 1500 applicants.
+  description: Accelerated career program for full stack web development with a focus on TDD, mob programming, and applied learning. 30 students selected from 1500 applicants. Main focus on Javascript ES6, NodeJS, React, Express and MongoDB, together with other technologies.
   website: https://salt.dev/
 
 - degree: Master in Technology, Innovation and Knowledge – University of Oslo
@@ -54,6 +54,7 @@ voluntary:
   description: Created the council and lead the council the first two semesteres.
 
 - name: 'Film- and lecture series: ”Aisthesis – Film and Philosophy”'
+  timeperiod: 2012-2019
   position: Founder and main and main organizer
   description: Arranged with Cinemateket in Oslo and the student journal Filosofisk supplement, arranged 2 to 4 times each year with academic lecturers.
 
@@ -114,7 +115,7 @@ otherSkills:
 projects:
 - name: Iver
   timeperiod: April 2021 - November 2021
-  url: https://github.com/mountwebs/folkestemmen-frontend
+  url: https://github.com/mountwebs/iver
   description: Worked in a team of two designers (Travers AS) and two developers to create a web app enabeling citizens to give direct feedback to their local government.
 - name: Portfolio and blog
   timeperiod: January 2021
