@@ -221,6 +221,7 @@
 
       <div v-if="person.voluntary"
         class="voluntary-section section">
+        <br />
         <div class="icon">
           <i class="fa fa-heart font-awesome-icons"></i>
           <span class="section-headline"> {{ lang.voluntary }} </span>

@@ -12,7 +12,7 @@ birth:
 education:
 - degree: Full Stack JavaScript - School of Applied Technology </salt>
   timeperiod: September 2020 - December 2020
-  description: Accelerated career program for full stack web development with a focus on TDD, mob programming, and applied learning. 30 students selected from 1500 applicants. Main focus on Javascript ES6, NodeJS, React, Express and MongoDB, together with other technologies.
+  description: Accelerated career program for full stack web development with a focus on mob programming, TDD and applied learning. 30 students selected from 1500 applicants. Main focus on Javascript ES6, NodeJS; Frontend - React, HTML5 and CSS3; Backend - REST APIs, Express and MongoDB. 
   website: https://salt.dev/
 
 - degree: Master in Technology, Innovation and Knowledge – University of Oslo
@@ -30,7 +30,7 @@ experience:
 - company: Eye-share AS
   position: Technical consultant
   timeperiod: March 2021 - Present
-  description: Technical Consultant for a Norwegian software company developing intelligent software for intelligent purchase-to-pay solutions for customers in over 45 countries. 
+  description: Technical Consultant for a Norwegian software company developing intelligent software for purchase-to-pay solutions for customers in over 45 countries. 
 
 - company: University of Oslo
   position: Seminar teacher
@@ -45,6 +45,10 @@ experience:
 - company: The Norwegian Center for Holocaust and Minority Studies
   position: Museum guide and receptionist
   timeperiod: 2017 - 2020
+
+- company: Pax forlag
+  position: Distribution and communication co-worker, part time
+  timeperiod: 2014 - 2017
 
 - company: Norsk filminstitutt and Cinemateket in Oslo
   position: Cinenema host, Receptionist and museum guide
@@ -66,13 +70,17 @@ voluntary:
   timeperiod: 2014-2015
   description: Editor-in-Chef for the first edition of the journal.
 
+- name: Filosofisk supplement, Student journal (Philosophy)
+  position: Editorial board member and writer
+  timeperiod: 2011-2012
+
 
 # skill level goes 0 to 100
 skills:
 - name: HTML5
 - name: CSS3
 - name: JavaScript
-- name: Node.js
+- name: Nodejs
 - name: Angular 2
 - name: TypeScript
 - name: ES.Next
