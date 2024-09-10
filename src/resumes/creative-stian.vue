@@ -191,14 +191,27 @@
         class="section-content__text--light">
           <li>Working with customers to tailor software to their spesific needs.</li>
           <li>Experience with a complex and highly customisable web app built on C# and with AngularJS frontend.</li>
-          <li>Working on integrating our software with customers ERPs and other software, like SAP, D365, AX09, AX12, Visma etc.</li>
           <li>Worked with deployment and countinuous integration tools and practices: Git,  Azure pipelines, Octopus Deploy etc. </li>
-          <li>Working with databases on a daily basis: mongoDB and postgreSQL</li>
+          <li>Worked with databases on a daily basis: mongoDB and postgreSQL</li>
           <li>Contributed to establishing the Oslo branch. Onboarded three new technical employees (fadder).</li>
+        </span>
+                    <span v-if="experience.company === 'Sail AS'"
+        class="section-content__text--light">
+  <li>Tech-lead on multiple projects with one or two other developers, responsible during the development phase.</li>
+  <li>Main responsibility for customer contact and meetings in both development and maintenance stages.</li>
+  <li>Experience with various stacks and technologies across different projects. Main stacks: 1) PHP with WordPress (Roots Sage and Trellis), MariaDB. 2) Next.js with Sanity</li>
+  <li>Developed custom PHP WordPress plugins.</li>
+  <li>DevOps experience: AWS, Cloudflare, Flywheel, Servebolt, etc.</li>
+  <li>SEO work with Google Analytics, Google Search Console, Semrush, etc.</li>
+  <li>Worked with numerous APIs (backend and frontend).</li>
         </span>
           </a>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
 
       <div class="education-section section">
         <div class="icon">
@@ -245,7 +258,7 @@
         class="projects-section section">
         <div class="icon">
           <i class="material-icons">code</i>
-          <span class="section-headline"> {{ lang.projects }} </span>
+          <span class="section-headline"> Selected projects </span>
         </div>
 
         <div class="section-content">

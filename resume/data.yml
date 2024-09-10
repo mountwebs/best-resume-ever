@@ -2,7 +2,7 @@
 name:
   first: Stian
   last: Klasbu
-about: Full stack developer based in Oslo with a passion for creating things. A curious person who loves to learn, create and improve technology. Previously studied technology as a social science student, but have changed to a more hands on approach to follow my dream to become a developer.
+about: Full stack developer based in Oslo with a passion for creating things. A curious person who loves to learn, create and improve technology. Previously studied technology as a social science student, but changed to a more hands on approach and followed my dream to become a developer.
 position: Full Stack Software Developer
 
 birth:
@@ -17,7 +17,7 @@ education:
 
 - degree: Master in Technology, Innovation and Knowledge – University of Oslo
   timeperiod: August 2017 - June 2020
-  description: "Masters programme at Center for Technology, Innovation and Culture. Thesis topic: privacy, law and technology; following GDPR from political vision to digital infrastructure, and how developers translated it into IT-practice."
+  description: "Masters programme at Center for Technology, Innovation and Culture. Thesis topic: privacy, law and technology; following GDPR from political vision to digital infrastructure, and how developers translated it into IT-practice. Received a top grade for the thesis."
 
 - degree: Bachelor in Culture and Communication - University of Oslo
   timeperiod: August 2015 - June 2017
@@ -27,10 +27,17 @@ education:
   timeperiod: August 2009 - June 2012
 
 experience:
+- company: Sail AS
+  position: Fullstack Developer
+  timeperiod: March 2022 - Present
+  description: Fullstack developer at Sail AS, a Norwegian agency that creates digital solutions for clients in the public and private sector.
+  website: https://sail.no/
+
 - company: Eye-share AS
   position: Technical consultant
-  timeperiod: March 2021 - Present
+  timeperiod: March 2021 - March 2022
   description: Technical Consultant for a Norwegian software company developing intelligent software for purchase-to-pay solutions for customers in over 45 countries. 
+  website: https://www.eye-share.com/
 
 - company: University of Oslo
   position: Seminar teacher
@@ -42,76 +49,45 @@ experience:
   timeperiod: 2018-2019
   description: I worked on a a research project (Enacting the good economy), and assisted researchers with scientific publications and coordination of the project.
 
-- company: The Norwegian Center for Holocaust and Minority Studies
-  position: Museum guide and receptionist
-  timeperiod: 2017 - 2020
-
-- company: Pax forlag
-  position: Distribution and communication co-worker, part time
-  timeperiod: 2014 - 2017
-
-- company: Norsk filminstitutt and Cinemateket in Oslo
-  position: Cinenema host, Receptionist and museum guide
-  timeperiod: 2014-2016
-
-voluntary:
-- name: Student Program Council, Centre for Technology, Innovation and Culture, University of Oslo
-  position: Council Leader
-  timeperiod: 2018-2019
-  description: Created the council and lead the council the first two semesteres.
-
-- name: 'Film- and lecture series: ”Aisthesis – Film and Philosophy”'
-  timeperiod: 2012-2019
-  position: Founder and main and main organizer
-  description: Arranged with Cinemateket in Oslo and the student journal Filosofisk supplement, arranged 2 to 4 times each year with academic lecturers.
-
-- name: Molo – Student journal, Intellectual history 
-  position: Editor-in-Chef
-  timeperiod: 2014-2015
-  description: Editor-in-Chef for the first edition of the journal.
-
-- name: Filosofisk supplement, Student journal (Philosophy)
-  position: Editorial board member and writer
-  timeperiod: 2011-2012
-
 
 # skill level goes 0 to 100
 skills:
+- name: JavaScript
+- name: PHP
 - name: HTML5
 - name: CSS3
-- name: JavaScript
-- name: Nodejs
-- name: Angular 2
-- name: TypeScript
-- name: ES.Next
 - name: Docker
+- name: Laravel
+- name: WordPress
 
 languages:
   - name: JavaScript
+  - name: PHP
   - name: C#
   - name: Python
 
 frontEnd:
 - name: React
+- name: NextJS
 - name: Gatsby
-- name: Redux
-- name: AngularJS
 - name: HTML5
 - name: CSS3
 - name: Webpack
 - name: Sass
+- name: TainwindCSS
 
 backEnd:
 - name: Node
 - name: .net
 - name: MongoDB
+- name: MySQL
 - name: PostgreSQL
 - name: REST API
 - name: Express
 - name: Redis
-- name: InfluxDB
 - name: GraphQL
-
+- name: Sanity.io
+- name: Laravel
 
 otherSkills:
 - name: Linux
@@ -119,36 +95,26 @@ otherSkills:
 - name: Azure DevOps
 - name: Docker
 - name: Bash
-- name: Postman
 - name: Amazon AWS
-
 
 projects:
 - name: Iver
-  timeperiod: April 2021 - November 2021
+  timeperiod: 2021 - 2023
   url: https://github.com/mountwebs/iver
-  description: Worked in a team of two designers (Travers AS) and two developers to create a web app enabeling citizens to give direct feedback to their local government.
-- name: Portfolio and blog
-  timeperiod: January 2021
-  description: Webpage created with Gatsby (with React and graphQL). 
-  url: https://stiangk.netlify.app/
-- name: PhysIO
-  timeperiod: December 2020
-  description: Prototype app for physiotherapists and their clients. Created with React frontend and REST API Backend with Express and MongoDB. The app provides the physotherapist with an easier way to share exercises and sessions with their clients. Created with my mob at Salt at a 2-week sprint.
-  url: https://phys-io.netlify.app/
+  description: Worked in a team with two designers (Travers AS) to create a web app enabeling citizens to give direct feedback to their local government. Has until now been implemented in 8 projects for different municipalities. React frontend, NodeJS backend with Express and MongoDB. Authentification with passport.js and JWT. 
+- name: Shot in the dark
+  timeperiod: current
+  description: A web service for sending a dynamic pdf budget on email to customers. Rest API with Express and react-pdf. (Currently in development)
 - name: Timeglass
   platform: Python
   timeperiod: May 2020
   description: A simple, unobtrusive menu bar timer for macOS.
   url: https://github.com/mountwebs/timeglass
 
-knowledge: Take a look at my website for more on my projects.
-
 contact:
   email: stiangk@email.com
   phone: +47 91806599
   city: Oslo
-  website: https://stiangk.netlify.app/
   github: mountwebs @ github
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
